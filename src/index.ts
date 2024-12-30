@@ -58,6 +58,8 @@ const RussianTranslation: TranslationMessages = {
             show: '%{name} %{recordRepresentation}',
             empty: 'Нет %{name}.',
             invite: 'Вы хотите добавить еще одну?',
+            access_denied: 'Доступ запрещен',
+            authentication_error: 'Ошибка аутентификации',
         },
         input: {
             file: {
@@ -100,8 +102,12 @@ const RussianTranslation: TranslationMessages = {
             not_found: 'Ошибка URL или вы следуете по неверной ссылке',
             yes: 'Да',
             unsaved_changes: 'Некоторые из ваших изменений не были сохранены. Вы уверены, что хотите их игнорировать?',
+            access_denied: 'У вас нет доступа к этой странице',
+            authentication_error: 'Произошла ошибка на сервере при попытке аутентификации.',
         },
         navigation: {
+            clear_filters: 'Очистить фильтры',
+            no_filtered_results: 'Не найдено %{name} с текущими фильтрами.',
             no_results: 'Результатов не найдено',
             no_more_results: 'Страница %{page} выходит за пределы нумерации, попробуйте предыдущую',
             page_out_of_boundaries: 'Страница %{page} вне границ',
@@ -114,7 +120,6 @@ const RussianTranslation: TranslationMessages = {
             first: 'На первую страницу',
             last: 'На последнюю страницу',
             next: 'Следующая',
-            prev: 'Предыдущая',
             previous: 'Предыдущая',
             page_rows_per_page: 'Строк на странице:',
             skip_nav: 'Перейти к содержанию',
@@ -157,7 +162,7 @@ const RussianTranslation: TranslationMessages = {
             email: 'Некорректный email',
             oneOf: 'Должно быть одним из: %{options}',
             regex: 'Должно быть в формате (regexp): %{pattern}',
-            unique: 'Must be unique',
+            unique: 'Должно быть уникальным',
         },
         saved_queries: {
             label: 'Сохраненные запросы',
